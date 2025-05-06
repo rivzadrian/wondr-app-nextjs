@@ -1,7 +1,7 @@
 export const dynamic = 'force-static'; // tell next js to make the page static
 
 async function getRates() {
-    const res = await fetch('http://localhost:3001/api/rates',{
+    const res = await fetch('http://localhost:3000/api/rates',{
         // cache: 'force-cache'
     })
     return res.json();

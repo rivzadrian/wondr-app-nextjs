@@ -1,6 +1,19 @@
 import Image from "next/image";
 
-export default function Home() {
+const revalidate = 60;
+
+const baseUrl = process.env.NEXT_PUBLIC_API_BASE_URL;
+async function getPromo() {
+  const res = await fetch(`${baseUrl}/api/promo`, {
+    next: {revalidate: revalidate}
+  });
+  return res.json();
+}
+
+
+export default async function Home() {
+  const data = await getPromo();
+  
   return (
     <div>
       <div className="forstep9 animate-fadeIn">

@@ -1,7 +1,8 @@
 const revalidate = 60;
 
+const baseUrl = process.env.NEXT_PUBLIC_API_BASE_URL;
 async function getPromo() {
-  const res = await fetch("http://localhost:3001/api/promo", {
+  const res = await fetch(`${baseUrl}/api/promo`, {
     next: {revalidate: revalidate}
   });
   return res.json();
@@ -10,7 +11,7 @@ async function getPromo() {
 export default async function AllPromo() {
   const data = await getPromo();
 
-  // console.log("Promo List:", data);
+  // console.log("Promo List:", baseUrl);
 
   return (
     <section className=" md:pt-[5px] bg-[#6350F8] relative">
