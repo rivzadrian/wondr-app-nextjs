@@ -80,7 +80,7 @@ export default function Home() {
                 Makin seru pakai promo
               </h2>
               <a
-                href="https://bniexperience.bni.co.id/wondr?utm_source=microsite&#x26;utm_medium=home_promo&#x26;utm_campaign=wondr&#x26;utm_term=selengkapnya&#x26;utm_content=selengkapnya"
+                href="all-promo"
                 className="font-demibold text-white text-[16px] leading-[24px] md:text-[24px] md:leading-[32px] underline tracking-[-0.0225em] btn-all-promo "
               >
                 Lihat Semuanya

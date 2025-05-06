@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         <nav className="bg-white border-gray-200 w-full transition-all duration-300 relative">
           <div className="flex flex-wrap w-full items-center justify-between max-w-screen-xl p-4 mx-auto">
             <a
-              href="#"
+              href="/"
               className="flex items-center space-x-3 rtl:space-x-reverse"
             >
               <img

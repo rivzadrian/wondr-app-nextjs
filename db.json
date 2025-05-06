@@ -1,0 +1,85 @@
+{
+  "rates": [
+    { "id": 1, "name": "Tabungan", "value": 3.2 },
+    { "id": 2, "name": "Deposito", "value": 5.1 }
+  ],
+  "exchange": [
+    { "id": 1, "currency": "USD", "value": 200000000 },
+    { "id": 2, "currency": "JPY", "value": 222232323 }
+  ],
+  "user": [
+    { "id": 1, "name": "John", "balance": 1000000 }
+  ],
+  "promo": [
+  {
+    "id": 1,
+    "name": "Buy 1 Get 2 Tiket BNI Java Jazz Festival dengan wondr by BNI",
+    "imageUrl": "/javajazz.png",
+    "href": "promo/1",
+    "details": "Rasakan serunya festival musik terbesar di Indonesia! Dengan menggunakan wondr by BNI, kamu bisa menikmati promo eksklusif: beli 1 tiket dan langsung dapatkan 2 tiket untuk Java Jazz Festival. Promo ini hanya berlaku selama persediaan masih ada dan hanya bisa digunakan satu kali per pengguna."
+  },
+  {
+    "id": 2,
+    "name": "Diskon Tiket Bioskop",
+    "imageUrl": "/javajazz.png",
+    "href": "promo/2",
+    "details": "Khusus hari Jumat, dapatkan diskon hingga 50% untuk pembelian tiket bioskop di seluruh jaringan XXI, CGV, dan Cinepolis. Gunakan aplikasi wondr by BNI saat checkout dan nikmati pengalaman nonton hemat bersama teman dan keluarga. Promo berlaku setiap Jumat sepanjang bulan ini."
+  },
+  {
+    "id": 3,
+    "name": "Gratis Ongkir Sepuasnya",
+    "imageUrl": "/javajazz.png",
+    "href": "promo/3",
+    "details": "Belanja sepuasnya di e-commerce favoritmu tanpa perlu khawatir ongkos kirim! Dengan wondr by BNI, kamu akan mendapatkan kode voucher gratis ongkir yang bisa digunakan hingga 5 kali setiap bulan. Promo ini berlaku untuk pengiriman ke seluruh Indonesia tanpa minimum belanja."
+  },
+  {
+    "id": 4,
+    "name": "Promo Makan Hemat",
+    "imageUrl": "/javajazz.png",
+    "href": "promo/4",
+    "details": "Jangan lewatkan kesempatan untuk menikmati makan enak dengan harga miring! Promo makan hemat dari wondr by BNI memberikan diskon hingga 40% di lebih dari 200 restoran partner kami, termasuk brand favorit seperti Sushi Tei, Bakmi GM, dan KFC. Cukup bayar menggunakan wondr untuk mendapatkan diskonnya."
+  },
+  {
+    "id": 5,
+    "name": "Bayar Tagihan Diskon 10%",
+    "imageUrl": "/javajazz.png",
+    "href": "promo/5",
+    "details": "Bayar tagihan rutin seperti listrik, air, dan internet kini lebih hemat dengan wondr by BNI. Nikmati diskon 10% untuk setiap pembayaran tagihan minimal Rp100.000 melalui aplikasi. Promo berlaku untuk semua pelanggan dan dapat diklaim satu kali setiap bulan."
+  },
+  {
+    "id": 6,
+    "name": "Beli Pulsa Bonus Kuota",
+    "imageUrl": "/javajazz.png",
+    "href": "promo/6",
+    "details": "Isi ulang pulsa di aplikasi wondr dan dapatkan bonus kuota internet hingga 2GB! Berlaku untuk semua operator seperti Telkomsel, XL, Indosat, dan Tri. Setiap pembelian pulsa minimal Rp50.000 akan otomatis mendapatkan tambahan kuota dalam 1x24 jam."
+  },
+  {
+    "id": 7,
+    "name": "Diskon Booking Hotel",
+    "imageUrl": "/javajazz.png",
+    "href": "promo/7",
+    "details": "Liburan jadi lebih hemat dengan diskon hingga 30% untuk booking hotel di seluruh Indonesia! Gunakan fitur pemesanan hotel di wondr by BNI dan temukan berbagai pilihan akomodasi dari hotel budget hingga bintang lima. Promo berlaku sepanjang tahun dan dapat digunakan berkali-kali."
+  },
+  {
+    "id": 8,
+    "name": "Promo Ngopi Sore",
+    "imageUrl": "/javajazz.png",
+    "href": "promo/8",
+    "details": "Nikmati sore hari yang lebih santai dengan promo ngopi sore dari wondr. Beli 1 kopi favoritmu dan dapatkan 1 lagi secara gratis di coffee shop pilihan seperti Starbucks, Kopi Kenangan, dan Fore. Promo berlaku setiap hari kerja antara pukul 14.00 - 17.00 WIB."
+  },
+  {
+    "id": 9,
+    "name": "Cicilan 0% Semua Produk",
+    "imageUrl": "/javajazz.png",
+    "href": "promo/9",
+    "details": "Belanja sekarang, bayar nanti tanpa bunga! Dengan promo cicilan 0% dari wondr by BNI, kamu bisa membeli gadget, furniture, elektronik, dan lainnya dengan tenor hingga 12 bulan. Tersedia untuk semua transaksi minimal Rp1.000.000 di merchant online dan offline yang bekerja sama."
+  },
+  {
+    "id": 10,
+    "name": "Flash Sale Khusus Member",
+    "imageUrl": "/download.jpeg",
+    "href": "promo/10",
+    "details": "Dapatkan penawaran terbaik dari flash sale eksklusif setiap hari Senin hanya untuk pengguna terdaftar wondr. Mulai dari diskon besar-besaran, produk limited edition, hingga hadiah langsung! Pastikan kamu sudah menjadi member untuk bisa ikut serta dalam promo terbatas ini."
+  }
+]
+}
